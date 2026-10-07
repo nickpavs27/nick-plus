@@ -57,7 +57,8 @@ h1{font-size:clamp(3rem,7.2vw,6.5rem);line-height:.95;letter-spacing:-.07em;marg
 .project small{color:var(--cyan);font-weight:950;letter-spacing:.14em}
 .project h3{font-size:1.3125rem;line-height:1.3;margin:17px 0 8px}
 .project p{color:var(--muted);line-height:1.5}
-.watch{margin-top:auto;color:#fff;font-weight:900}
+.project .watch{margin-top:auto;align-self:flex-start;padding:10px 14px;font-size:.875rem;font-weight:900}
+.project:focus-visible .watch{background:var(--cyan)}
 .feature{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px;align-items:center}
 .feature img{display:block;width:100%;height:auto;max-height:440px;object-fit:cover;border-radius:28px;border:1px solid #ffffff20;box-shadow:0 22px 60px #0009}
 .jokes{background:#ffffff08;border-block:1px solid #ffffff15}
@@ -122,6 +123,7 @@ h1{font-size:clamp(3rem,7.2vw,4.5rem)}
 @media(hover:hover) and (pointer:fine){
 .card:hover{transform:translateY(-7px) scale(1.01);border-color:#ffffff50}
 .project:hover{transform:translateY(-4px);background:#ffffff0e}
+.project:hover .watch{background:var(--cyan)}
 .gallery>img:hover{transform:scale(1.018);border-color:#ffffff45}
 .choice:hover{background:#ffffff16}
 }
@@ -198,25 +200,25 @@ html{scroll-behavior:auto}
 <small>01 · KEYNOTE VIDEO</small>
 <h3>PPCC25 × BWT Alpine Formula 1</h3>
 <p>A high-impact keynote film built for a big stage and an even bigger storytelling moment.</p>
-<span class="watch">▶ Watch on Vimeo</span>
+<span class="pill watch">▶ Watch on Vimeo</span>
 </a>
 <a class="project" href="https://youtube.com/playlist?list=PLi9EhCY4z99U6DF20P3SJbxOYtDqnR5Nd&si=5HvEdzTvtImwu3r7" target="_blank" rel="noopener">
 <small>02 · 5-EPISODE SERIES</small>
 <h3>The Next Big Bite</h3>
 <p>Food opens the door to ideas, culture, technology, and surprisingly good conversations.</p>
-<span class="watch">▶ Watch the playlist</span>
+<span class="pill watch">▶ Watch the playlist</span>
 </a>
 <a class="project" href="https://vimeo.com/578629573" target="_blank" rel="noopener">
 <small>03 · VISION VIDEO</small>
 <h3>Azure Healthcare APIs</h3>
 <p>Turning a complex technical story into a human view of what becomes possible.</p>
-<span class="watch">▶ Watch on Vimeo</span>
+<span class="pill watch">▶ Watch on Vimeo</span>
 </a>
 <a class="project" href="https://vimeo.com/440820658" target="_blank" rel="noopener">
 <small>04 · LAUNCH VIDEO</small>
 <h3>Dynamics 365 Connected Store</h3>
 <p>A launch story designed to make an emerging retail experience tangible.</p>
-<span class="watch">▶ Watch on Vimeo</span>
+<span class="pill watch">▶ Watch on Vimeo</span>
 </a>
 </div>
 </div>

@@ -14,3 +14,5 @@ The layout reflows for phones, tablets, desktop windows, and browser zoom.
 Profile and trailer dialogs use native keyboard/focus handling, keep a visible
 close button while scrolling, and restore page position on close. Hover effects
 are limited to mouse-like pointers, and reduced-motion preferences are respected.
+Selected work cards remain single full-card links, with bottom-aligned Watch
+pills that turn cyan on hover or keyboard focus.
